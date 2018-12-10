@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def get_server_addr():
-    return 'https://93.173.76.253:5000'
+    return 'https://93.173.76.253:8080'
     # return 'https://lct.localcloudtech.com'
 
 
