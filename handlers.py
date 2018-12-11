@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def get_server_addr():
-    return 'https://93.173.76.253:5002'
+    return 'https://93.173.76.253:5003'
 
 
 if __name__ == '__main__':
